@@ -1133,7 +1133,7 @@ class UnicodeString(ByteString):
         u'Ni Ni Ni'
 
     """
-    encoding = 'utf-8'
+    encoding = None
     inputEncoding = NoDefault
     outputEncoding = NoDefault
     messages = dict(
